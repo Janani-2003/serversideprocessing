@@ -148,10 +148,6 @@ urlpatterns = [
 
 ![serversideprocessing](https://user-images.githubusercontent.com/94288340/155071345-ba39cce5-5204-471a-8e44-f58bbc5ef153.png)
 
-
-### Home Page:
-
-
 ## Result:
 
 Thus a website is designed to perform mathematical calculations in server side and is hosted at http://janani31.student.saveetha.in/
