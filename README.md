@@ -21,7 +21,7 @@ Step 5:
 Publish the website in the given URL.http://janani31.student.saveetha.in/
 
 ## PROGRAM :
-### VOLUME.html
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -92,8 +92,7 @@ h1{
     </div>
 </body>
 </html>
-
-### views.py
+### VOLUME.html
 from django.shortcuts import render
 
 # Create your views here.
@@ -113,9 +112,11 @@ def volumecalculation(request):
         context['b'] = b
         context['w'] = w
     return render(request,'mathapp/volume.html',context)
-
-### urls.py
-"""calculation URL Configuration
+    
+    
+ urls.py:
+ 
+ """calculation URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.1/topics/http/urls/
@@ -139,6 +140,7 @@ urlpatterns = [
     path('volumeofacuboid/',views.volumecalculation,name="volumeofacuboid"),
     path('',views.volumecalculation,name="volumeofacuboidroot")
 ]
+   
 
 ## OUTPUT:
 
@@ -149,4 +151,6 @@ urlpatterns = [
 
 
 ## Result:
+
+Thus a website is designed to perform mathematical calculations in server side and is hosted at http://janani31.student.saveetha.in/
 
